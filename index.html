@@ -157,16 +157,19 @@
       class="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600
        hover:to-blue-800 text-white font-bold rounded-2xl shadow-lg transform 
        transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110
-        hover:animate-pulse active:animate-bounce absolute w-[150px] top-[500px] left-[210px] h-[40px]"
+        hover:animate-pulse  absolute w-[150px] top-[500px] left-[210px] h-[40px]"
+        onclick="contactInfo()"
     >
       Contact me
     </button>
-    <button
+    <a
       class="bg-[#020817] w-[150px] h-[40px] rounded-[15px] border-1 border-[#213448]
        text-amber-50 hover:bg-[#006BFF] absolute top-[500px] left-[370px] border-opacity-50 font-bold"
+       href="https://github.com/Debojyoti24"
+      target="_blank"
     >
-      View projects
-    </button>
+     <span class="ml-[25px] absolute mt-[7px] "> View projects</span>
+    </a>
 
     <div class="group inline-block relative top-[500px] left-[550px]" title="Github">
       <a class="focus:outline-none"
@@ -235,7 +238,8 @@
          text-[#006BFF] mt-[17px] ml-[20px]"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9l0 57.1c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-57.1L48 93.3l0 65.1 15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9l-32 0c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4l0-71.8C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"/></svg>
          <h2 class="font-bold text-amber-50 text-[20px] ml-[57px] mt-[-25px] filter brightness-50">Education</h2>
          <p class="text-amber-50 font-bold text-[16px] mt-[5px] ml-[57px] absolute">Master of Computer Applications</p>
-         <p class="text-amber-50 text-justify w-[700px] mt-[32px] ml-[57px]">
+         <p class="text-amber-50 text-justify text-[16px] absolute mt-[30px] filter brightness-50 font-bold ml-[57px]"> WBJECA GMR -789</p> 
+         <p class="text-amber-50 text-justify w-[700px] mt-[60px] ml-[57px]">
           <span class="font-bold filter brightness-50">RCCIIT</span>
           <span class="filter brightness-50 text-[14px]">(RCC Institute of Information Technology)</span>
         </p>
@@ -745,7 +749,7 @@ class="cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[1px]  r
         ></textarea>
 
         <button class="bg-blue-500 text-white px-4 py-2 rounded shadow mt-4 w-[600px] ml-[80px] hover:bg-blue-700 hover:shadow-lg
-        cursor-pointer">
+        cursor-pointer" onclick="submitbtn()">
           Submit
         </button>
       </div>
