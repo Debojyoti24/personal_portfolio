@@ -7,8 +7,8 @@ function contactInfo() {
   alert(" Contact no: 91+ 7501000248");
 }
 
-function ProjectInfo() {
-  alert("coming soon.Thank you");
+function showCertificate() {
+  alert("adding soon.Thank you");
 }
 
 function getEmail() {
